@@ -1,0 +1,5 @@
+a = juma
+puts a
+
+
+

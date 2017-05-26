@@ -1,7 +1,7 @@
-def mode(array)
+def mode(array) #metodo , parametro array
 
-  hash = Hash.new(0)
-  array.each {|num| hash[num] += 1}
+  hash = Hash.new(0) #nuevo hash
+  array.each {|num| hash[num] += 1} 
 
   max_value = hash.each_value.max
 

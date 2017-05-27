@@ -10,3 +10,7 @@ end
 #test
 multiplication_tables(5)
 multiplication_tables(7)
+
+
+# .sort_by acomoda los elementos de un arreglo por  orden alfabetico, entre {} tiene el metodo downcase para que primero los convierta en minusculas, luego los acomode, pero al guardar los elementos en ar2, los guarde con el formato con el que el usuari las introdujo
+#Este metodo me ayuda a imprimir cada elemento del arreglo en otra linea y sin las comillas

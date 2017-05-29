@@ -1,0 +1,42 @@
+html{
+  text-align: justify;
+}
+h1{
+      color:white;
+      font-size:35px;
+    }
+    body {
+    background-color: lightblue;
+}
+
+#titulo_1{ /*esto es un ID unico*/
+    color: blue;
+    font-weight: bold;
+  }
+
+/* esto es un comentario */
+
+/* -class puede apuntar a un grupo de elementos, se usa al anteponer . al nombre de la clase.*/
+.list_elements{
+    text-align: center;
+    list-style-type: none;
+    font-style: italic;
+  }
+  .main_text{
+    font-size: 50px;
+    color: #C22010; 
+   font-family: Verdana, sans-serif;
+  }
+
+    #text_size{
+    text-align: center;
+    font-size: 60px;
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #C43B07;
+  }
+
+  
+

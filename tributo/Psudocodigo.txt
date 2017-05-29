@@ -1,0 +1,198 @@
+imita un buen codgio y un buen ingles
+nombre de las varibles cortos y tecnicos, concisas
+comentarios sean incluidos cuando sea util
+frases in gles cuando sean utiles
+no poner tantas comas
+usar convecciones para agrupar declaraciones 
+empezar
+/
+fin
+no debes obsecionarte con la sintaxis
+atajos de programacion 
+Si entonces no
+
+Entrada: READ, OBTAIN, GET
+        Salida: IMPRIMIR, MOSTRAR, MOSTRAR
+        Calcular: COMPUTAR, CALCULAR, DETERMINAR
+        Inicializar: SET, INIT
+        Añadir uno: INCREMENT, BUMP
+
+La opción binaria en una condición booleana dada se indica mediante el uso de cuatro palabras clave: IF, THEN, ELSE y ENDIF. La forma general es:
+
+    SI condición LUEGO
+
+        Secuencia 1
+
+    MÁS
+
+        Secuencia 2
+
+    TERMINARA SI
+
+La opción binaria en una condición booleana dada se indica mediante el uso de cuatro palabras clave: IF, THEN, ELSE y ENDIF. La forma general es:
+
+    SI condición LUEGO
+
+        Secuencia 1
+
+    MÁS
+
+        Secuencia 2
+
+    TERMINARA SI
+
+La palabra clave ELSE y "secuencia 2" son opcionales. Si la condición es verdadera, se ejecuta la secuencia 1, de lo contrario se realiza la secuencia 2.
+
+Ejemplo
+
+    SI HoursWorked> NormalMax ENTONCES
+
+        Mostrar mensaje de horas extras
+
+    MÁS
+
+        Mostrar mensaje de tiempo normal
+
+    TERMINARA SI
+
+MIENTRAS
+
+La construcción WHILE se utiliza para especificar un bucle con una prueba en la parte superior. El comienzo y el final del bucle se indican con dos palabras clave WHILE y ENDWHILE. La forma general es:
+
+    MIENTRAS condición
+
+        secuencia
+
+    Siempre y cuando
+
+El bucle se introduce sólo si la condición es verdadera. La "secuencia" se realiza para cada iteración. Al finalizar cada iteración, se evalúa la condición y el bucle continúa siempre y cuando la condición sea verdadera.
+
+Ejemplo
+
+    MIENTRAS Población <Límite
+
+        Calcular la población como población + Nacimientos - Muertes
+
+    Siempre y cuando
+
+Ejemplo
+
+    WHILE employee.type NOT EQUAL gestor Y personaCount <numEmployees
+
+        INCREMENTO personaCount
+        CALL employeeList.getPerson con personCount RETURNING empleado
+
+    Siempre y cuando
+
+CASO
+
+Una construcción CASE indica una rama multipunto basada en condiciones que son mutuamente excluyentes. Cuatro palabras clave, CASE, OF, OTHERS, y ENDCASE, y las condiciones se utilizan para indicar las diversas alternativas. La forma general es:
+
+    CASE expresión de
+
+
+PROGRAMA: BEST_STUDENTS
+ENTORNO: STUDENTS es un arreglo tipo hash con llave tipo simbolo
+ENTRADA: best_students(x,y)
+SALIDA: Mayores valores de best_students
+INICIO
+MIENTRAS y<students.lenght
+SIEMPRE Y CUANDO
+current_student=student=student[y][x]
+SI current_student[1]==10
+ENTONCES best_students.push(currnt_student[0])
+FIN SI
+SI x==(students[y].lenght h-1)
+x=0
+y+1
+SI NO
+x+1=1
+FIN SI
+FIN MIENTRAS
+LEER best_students
+FIN PROGRAMA
+ESCRBIR MEFORES ESTUDIANTES
+
+
+
+
+1976: Steve Jobs y Steve Wozniak lanzan la primera computadora Apple en Palo Alto, California. Consiste en poco más que un panel de circuitos y cuesta poco menos de 700 dólares.
+
+
+1977: La Apple II con procesador de un megahertz se convierte en la primera computadora construida en forma masiva y en un éxito instantáneo.
+
+
+1980: Apple pasa a cotizar en Bolsa.
+
+
+1983: Presentan "Lisa", la primera computadora personal con un mouse para navegar y con íconos y carpetas en el "escritorio". Su fracaso fue atribuido a su alto precio, de casi 10.000 dólares.
+
+
+1984: Debut de la computadora Macintosh. Es accesible e incluye innovaciones como la disquetera, un monitor integrado y mouse.
+
+
+1985: Jobs renuncia por primera vez tras perder el control de Apple en una lucha interna por el poder en la compañía.
+
+
+1986: El director ejecutivo de Apple, John Sculley, se convierte en el presidente de la empresa. Jobs comienza con la compañía NeXT Computer y compra la unidad de gráficos de Lucasfilm, a la que rebautiza como Pixar.
+
+
+1996: Apple compra NeXT y convierte a Jobs en asesor.
+
+
+1997: Jobs reemplaza a Gil Amelio al frente de Apple. El archirrival Microsoft invierte 150 millones de dólares en la compañía.
+
+
+1998: Jobs moderniza la línea de productos de Apple, produciendo las coloridas computadoras iMac por 1.300 dólares.
+
+
+1999: Se presenta en el mercado el iBook, que llega como un iMac móvil.
+
+
+2001: Apple lanza un reproductor de música digital MP3, el iPod, por 399 dólares y abre la primera MacStore en Palo Alto.
+
+
+2003: Apple abre la tienda de música online iTunes.
+
+
+2004: Jobs es sometido a una operación por un cáncer de páncreas.
+
+
+2007: Apple lanza el iPhone, inaugurando la era de las pantallas táctiles.
+
+
+2009: Jobs se toma una nueva licencia médica en enero y regresa al trabajo en junio tras un trasplante de hígado.
+
+
+2010: Jobs presenta el iPad en enero y esta tableta con pantalla táctil sale a la venta en abril, convirtiéndose en un gran éxito. En mayo, Apple supera a Microsoft como primera compañia de tecnología estadounidense en términos de valor de mercado.
+
+
+2011:
+
+
+17 de enero: Jobs se toma una nueva licencia médica sin especificar los motivos.
+
+
+18 de enero: Apple reporta un beneficio neto trimestral récord de 6.000 millones de dólares sobre unos ingresos de 26.740 millones.
+
+
+2 de marzo: Jobs hace una aparición sorpresa para develar la última iPad.
+
+
+6 de junio: Jobs vuelve a sorprender al lanzar el servicio gratuito de almacenamiento en línea iCloud.
+
+
+19 de julio: Apple logra en el segundo trimestre 7.310 millones de dólares de beneficios, con unos ingresos de 28.570 millones.
+
+
+9 de agosto: Apple se convierte por un corto tiempo en la compañía más valiosa del mundo en capitalización de mercado al superar a ExxonMobil.
+
+
+24 de agosto: Jobs anuncia su renuncia como presidente ejecutivo de Apple y es sustituido por el director de ventas y operaciones, Tim Cook, pero permanece como presidente del directorio. Tras el anuncio, las acciones de Apple caen 5,3%.
+
+
+4 de octubre: Apple presenta el "iPhone 4S", un iPhone más potente con una función "asistente personal" que responde a comandos de voz, con un procesador más rápido y una cámara de video de alta definición.
+
+
+5 de octubre: Muere Steve Jobs.
+

@@ -1,0 +1,12 @@
+#ejemplo1 ul li a {
+     color: red;
+}
+
+#ejemplo2 ul li a{
+    color: green;
+}
+
+#ejemplo3 ul li a.menu{
+  color: green;
+}
+

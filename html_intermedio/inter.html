@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>Mi documento básico</title>
+</head>
+<body>
+<form id="form_test">
+  <fieldset>
+    <legend>Facturacion cliente</legend>
+    <label for="name">
+      Nombre Completo:
+      <input type="text" name="name">
+    </label><br>
+    <label for="RFC">
+      RFC:
+      <input type="text" name="RFC">
+    </label><br>
+    <label for="direccion">
+      Direccion:
+      <input type="text" name="direccion">
+    </label><br>
+    <label for="email">
+      Email:
+      <input type="email" name="email">
+    </label><br>
+    <label for="description">
+      Descripcion de la compra:<br>
+      <textarea form="form_test" rows="4" cols="50"></textarea>
+    </label><br>
+    Tipo de Pago:<br>
+    <input type="radio" name="gender" value="efectivo" checked> Efectivo<br>
+  <input type="radio" name="gender" value="cheque"> Cheque<br>
+  <input type="radio" name="gender" value="other"> Otro
+  <br>
+  <label for="monto">
+      Monto:
+      <input type="number" name="monto">
+    </label><br>
+
+  </fieldset>
+</form>
+  
+</body>
+</html>

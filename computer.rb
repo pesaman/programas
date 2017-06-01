@@ -1,16 +1,12 @@
 class Computer
   attr_writer :color
-
   def initialize(color)
     @color = color
   end
-
   def color
-    @color
+   @color
   end
-
 end
-
 mac=Computer.new('white')
 
 #test

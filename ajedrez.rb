@@ -119,9 +119,9 @@ end
 # puts tablero
 imprime_tablero(tablero_ajedrez)
 table = tabla_datos
-p table[0][4]  = "Calificaciones"
-p table[2][1]  = 12
-p table[2][2]  = "Femenino"
-p table[3][3]  = "Primero"
-p table[3][4]  = [8, 7, 7, 9, 8]
-p table[4][4][2]  = 6
+p table[0][4]  == "Calificaciones"
+p table[2][1]  == 12
+p table[2][2]  == "Femenino"
+p table[3][3]  == "Primero"
+p table[3][4]  == [8, 7, 7, 9, 8]
+p table[4][4][2]  == 6

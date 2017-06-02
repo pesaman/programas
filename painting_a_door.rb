@@ -4,17 +4,14 @@ class Door
     @color = color
   end
 
-  def color=(new_color)
-    @color = new_color.capitalize
-  end
-
-  def spray_paint
-    "The #{@color} door looks great!"
+  def spray_paint(color)
+    @color = color
+    "The #{@color.capitalize} door looks great!"
   end
 end  
 
-big_door=Door.new('blue')
+big_door=Door.new('blue')# nueva instancia
+
 
 #test
-big_door.color = ('yellow') 
-p big_door.spray_paint == "The Yellow door looks great!"
+p big_door.spray_paint('yellow') == "The Yellow door looks great!"

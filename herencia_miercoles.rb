@@ -1,10 +1,6 @@
-#Herencia
-
 class Vehicle
   attr_reader  :color, :age, :has_motor, :tank_size, :refuel, :number_of_wheels, :number_of_gears
  
-  
-
   def what_am_i?
     self.class
   end

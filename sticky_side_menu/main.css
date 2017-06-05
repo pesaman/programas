@@ -1,0 +1,42 @@
+.container {
+  margin: 0 auto;  
+  /*width: 720px;*/
+  position: relative;
+}
+
+nav {
+	position: fixed;
+	background: #bdbdbd;
+	height: 100%;
+	width: 20%;
+}
+
+ul {
+	margin-top: 0;
+	padding: 10px;
+}
+
+header h1{
+	margin-top: 0;
+}
+
+li {
+	list-style-type: none;
+	border-bottom: ridge;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	padding-top: 20px;
+	color: black;
+}
+
+.content {
+	display: block;
+	margin-left: 22%;
+}
+
+.footer {
+	margin-left: 22%;	
+}

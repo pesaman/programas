@@ -2,22 +2,24 @@ require "sqlite3"
 
 class Chef
 
-  def initialize(first_name, last_name, birthday, email, phone, created_at, updated_at)
+  def initialize(first_name, last_name, birthday, email, phone)
     @first_name = first_name
     @last_name = last_name
     @birthday = birthday
     @email = email
     @phone = phone
-    @created_at = created_at
-    @updated_at = updated_at
+    # @created_at = created_at
+    # @updated_at = updated_at
+    Chef.db.execute("
+      INSERT INTO chefs
+        (first_name, last_name, birthday, email, phone, created_at, updated_at)
+        VALUES
+        ('#{@first_name}', '#{@last_name}', '#{@birthday}', '#{@email}', '#{@phone}', DATETIME('now'), DATETIME('now'))
+    ")
   end
 
   def self.all
-    Chef.db.execute(
-      <<-SQL
-        SELECT * FROM chefs
-      SQL
-    )
+    Chef.db.execute("SELECT * FROM chefs;")      
   end
 
   def self.where(column, value)
@@ -27,23 +29,18 @@ class Chef
     Chef.db.execute(
         # SELECT * FROM chefs WHERE #{column} = #{value}
       # <<-SQL
-        "SELECT * FROM chefs WHERE #{column} = ?", value
+        "SELECT * FROM chefs WHERE #{column} = ?", value).first #parámetros a la claúsula WHERE. El ? se llama placeholder y sirve para evitar ataques de SQL injection
         #{column} = ?", value
       # SQL
       
-    ) #{?}
+     #{?}
+  end
+def self.find(value)
+    Chef.db.execute("SELECT * FROM chefs WHERE id = ?", value).first
   end
 
-  def save
-    insert = "(#{@first_name}, #{@last_name}, #{@birthday}, #{@email}, #{@phone}, #{@created_at}, #{@updated_at})"
-    Chef.db.execute(
-      <<-SQL
-        INSERT INTO chefs
-          (first_name, last_name, birthday, email, phone, created_at, updated_at)
-        VALUES
-          ('#{@first_name}', '#{@last_name}', '#{@birthday}', '#{@email}', '#{@phone}', '#{@created_at}', '#{@updated_at}');
-      SQL
-    )
+  def self.delete(value)
+    Chef.db.execute("DELETE FROM chefs WHERE #{column} = ?" ,value)
   end
 
   def self.create_table
@@ -63,12 +60,7 @@ class Chef
     )
   end
 
-  def self.delete(column, value)
-    Chef.db.execute(
-      "DELETE FROM chefs WHERE #{column} = ?" ,value
-    )
-  end
-
+  
   def self.seed
     Chef.db.execute(
       <<-SQL
